@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
-import { PrimaryButton } from '../../components/PrimaryButton';
+import { PrimaryButton } from '../../components/shared/PrimaryButton';
 import { DrawerActions, useNavigation } from '@react-navigation/native';
 
 export const ProfileScreen = () => {
